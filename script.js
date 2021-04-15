@@ -1,6 +1,6 @@
 $(document).ready(function() {
-   const apiRoot = 'https://mighty-island-97230.herokuapp.com//v1/task/';
-   const trelloApiRoot = 'https://api.trello.com/1';
+   const apiRoot = 'http://localhost:8080/v1/task/';
+   const trelloApiRoot = 'http://localhost:8080/v1/trello/';
    const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
    const $tasksContainer = $('[data-tasks-container]');
 
